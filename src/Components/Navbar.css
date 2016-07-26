@@ -1,0 +1,28 @@
+
+#menu {
+  margin-left: -150px;
+  width: 150px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 999;
+  overflow-y: auto;
+  background: #F9F8F8;
+}
+
+#topnav {
+  text-align: left;
+  z-index: 998;
+}
+
+#navOverlay {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  height: 120vh;
+  z-index: 997;
+  will-change: opacity;
+  background: rgba(0, 0, 0, 0.5);
+}
